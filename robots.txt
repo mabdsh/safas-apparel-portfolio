@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://safasapparel.com/sitemap.xml

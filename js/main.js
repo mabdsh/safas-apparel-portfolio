@@ -1,7 +1,7 @@
 (function ($) {
     "use strict";
 
-    // Spinner
+    // Spinner (used on all inner pages — not index.html which has custom loader)
     var spinner = function () {
         setTimeout(function () {
             if ($('#spinner').length > 0) {
@@ -10,9 +10,9 @@
         }, 1);
     };
     spinner();
-    
-    
-    // Initiate the wowjs
+
+
+    // Initiate WOW.js animations
     new WOW().init();
 
 
@@ -24,8 +24,8 @@
             $('.sticky-top').removeClass('shadow-sm').css('top', '-100px');
         }
     });
-    
-    
+
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
@@ -34,25 +34,17 @@
             $('.back-to-top').fadeOut('slow');
         }
     });
+
     $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+        $('html, body').animate({ scrollTop: 0 }, 1500, 'easeInOutExpo');
         return false;
     });
 
 
-    // Facts counter
+    // Counter-up
     $('[data-toggle="counter-up"]').counterUp({
         delay: 10,
         time: 2000
-    });
-
-
-    // Date and time picker
-    $('.date').datetimepicker({
-        format: 'L'
-    });
-    $('.time').datetimepicker({
-        format: 'LT'
     });
 
 
@@ -68,7 +60,7 @@
     });
 
 
-    // Testimonials carousel
+    // Testimonials carousel (kept for future use)
     $('.testimonial-carousel').owlCarousel({
         autoplay: true,
         smartSpeed: 1000,
@@ -79,6 +71,4 @@
         dotsData: true,
     });
 
-    
 })(jQuery);
-
