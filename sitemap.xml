@@ -1,33 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://safasapparel.com/</loc>
-        <lastmod>2026-04-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://safasapparel.com/products.html</loc>
-        <lastmod>2026-04-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://safasapparel.com/about.html</loc>
-        <lastmod>2026-04-11</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://safasapparel.com/sustainability.html</loc>
-        <lastmod>2026-04-11</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://safasapparel.com/contact.html</loc>
-        <lastmod>2026-04-11</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.7</priority>
-    </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://safasapparel.com/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://safasapparel.com/products.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/1.png</image:loc>
+      <image:title>Knitted Garment Style 1 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/2.png</image:loc>
+      <image:title>Knitted Garment Style 2 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/3.png</image:loc>
+      <image:title>Knitted Garment Style 3 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/4.png</image:loc>
+      <image:title>Knitted Garment Style 4 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/5.png</image:loc>
+      <image:title>Knitted Garment Style 5 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/6.png</image:loc>
+      <image:title>Knitted Garment Style 6 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/7.png</image:loc>
+      <image:title>Knitted Garment Style 7 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/8.png</image:loc>
+      <image:title>Knitted Garment Style 8 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/9.png</image:loc>
+      <image:title>Knitted Garment Style 9 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/10.png</image:loc>
+      <image:title>Knitted Garment Style 10 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/11.png</image:loc>
+      <image:title>Knitted Garment Style 11 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/12.png</image:loc>
+      <image:title>Knitted Garment Style 12 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/13.png</image:loc>
+      <image:title>Knitted Garment Style 13 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/14.png</image:loc>
+      <image:title>Knitted Garment Style 14 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/15.png</image:loc>
+      <image:title>Knitted Garment Style 15 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/16.png</image:loc>
+      <image:title>Knitted Garment Style 16 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/17.png</image:loc>
+      <image:title>Knitted Garment Style 17 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/18.png</image:loc>
+      <image:title>Knitted Garment Style 18 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/19.png</image:loc>
+      <image:title>Knitted Garment Style 19 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/20.png</image:loc>
+      <image:title>Knitted Garment Style 20 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/21.png</image:loc>
+      <image:title>Knitted Garment Style 21 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/22.png</image:loc>
+      <image:title>Knitted Garment Style 22 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/23.png</image:loc>
+      <image:title>Knitted Garment Style 23 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/24.png</image:loc>
+      <image:title>Knitted Garment Style 24 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/25.png</image:loc>
+      <image:title>Knitted Garment Style 25 — Safas Apparel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://safasapparel.com/img/products/26.png</image:loc>
+      <image:title>Knitted Garment Style 26 — Safas Apparel</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://safasapparel.com/about.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://safasapparel.com/sustainability.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://safasapparel.com/contact.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>

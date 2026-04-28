@@ -7,6 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="knitted garments manufacturer, knitwear exporter, Pakistan textile, T-shirts bulk, polo shirts wholesale, OEKO-TEX certified, BSCI certified, Faisalabad garments">
     <meta name="description" content="Safas Apparel — Premium knitted garments manufacturer and exporter from Faisalabad, Pakistan. OEKO-TEX, BSCI &amp; WRAP certified. Supplying EU, US &amp; Middle East markets with 12+ years of expertise.">
+    
+    <!-- Robots -->
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+    <!-- Author -->
+    <meta name="author" content="Safas Apparel">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SAFAS APPAREL | Premium Knitted Garment Manufacturer & Exporter">
+    <meta name="twitter:description" content="B2B manufacturer of knitted garments. OEKO-TEX, BSCI & WRAP certified. Supplying EU, US & Middle East from Faisalabad, Pakistan.">
+    <meta name="twitter:image" content="https://safasapparel.com/img/slider1.png">
+
+    <!-- Open Graph extras (add alongside existing OG tags) -->
+    <meta property="og:site_name" content="Safas Apparel">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Safas Apparel — Premium Knitted Garment Manufacturer, Faisalabad Pakistan">
+    
     <link rel="canonical" href="https://safasapparel.com/">
 
     <!-- Open Graph -->
@@ -17,7 +36,12 @@
     <meta property="og:type" content="website">
 
     <!-- Favicon -->
-    <link rel="icon" href="img/icons/safasLogo-removebg.png" type="image/png">
+    <link rel="icon" type="image/png" href="/img/icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/img/icons/favicon.svg" />
+    <link rel="shortcut icon" href="/img/icons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="SafasApparel" />
+    <link rel="manifest" href="/img/icons/site.webmanifest" />
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,6 +58,9 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Preload hero image for faster LCP (Core Web Vital) -->
+    <link rel="preload" as="image" href="img/slider1.png">
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -553,28 +580,98 @@
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Safas Apparel",
-        "url": "https://safasapparel.com",
-        "logo": "https://safasapparel.com/img/icons/safasLogo-removebg.png",
-        "description": "Premium knitted garments manufacturer and exporter from Faisalabad, Pakistan.",
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+92-300-0737180",
-            "contactType": "sales",
-            "availableLanguage": ["English", "Urdu"]
+    [
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Safas Apparel",
+            "url": "https://safasapparel.com",
+            "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://safasapparel.com/products.html?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+            }
         },
-        "address": {
+        {
+            "@context": "https://schema.org",
+            "@type": ["Organization", "LocalBusiness"],
+            "name": "Safas Apparel",
+            "url": "https://safasapparel.com",
+            "logo": "https://safasapparel.com/img/icons/safasLogo-removebg.png",
+            "image": "https://safasapparel.com/img/slider1.png",
+            "description": "Premium knitted garments manufacturer and exporter from Faisalabad, Pakistan. OEKO-TEX, BSCI & WRAP certified.",
+            "telephone": "+92-300-0737180",
+            "email": "info@safasapparel.com",
+            "priceRange": "$$",
+            "address": {
             "@type": "PostalAddress",
             "streetAddress": "Bagh-e-Wala Road to Parco Road",
             "addressLocality": "Faisalabad",
             "addressRegion": "Punjab",
+            "postalCode": "38000",
             "addressCountry": "PK"
+            },
+            "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 31.4235,
+            "longitude": 73.0794
+            },
+            "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+            "opens": "09:00",
+            "closes": "18:00"
+            },
+            "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+92-300-0737180",
+            "contactType": "sales",
+            "availableLanguage": ["English", "Urdu"]
+            },
+            "sameAs": [
+            "https://www.facebook.com/safasapparel",
+            "https://www.linkedin.com/company/safasapparel"
+            ]
         },
-        "sameAs": []
-    }
+        {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "Site Navigation",
+            "itemListElement": [
+            {
+                "@type": "SiteNavigationElement",
+                "position": 1,
+                "name": "Products",
+                "description": "Browse our premium knitted garment collection including T-shirts, polos, hoodies and more.",
+                "url": "https://safasapparel.com/products.html"
+            },
+            {
+                "@type": "SiteNavigationElement",
+                "position": 2,
+                "name": "Sustainability",
+                "description": "Our eco-friendly manufacturing commitments, OEKO-TEX certification and sustainable practices.",
+                "url": "https://safasapparel.com/sustainability.html"
+            },
+            {
+                "@type": "SiteNavigationElement",
+                "position": 3,
+                "name": "About Us",
+                "description": "12+ years of premium knitwear manufacturing expertise from Faisalabad, Pakistan.",
+                "url": "https://safasapparel.com/about.html"
+            },
+            {
+                "@type": "SiteNavigationElement",
+                "position": 4,
+                "name": "Contact Us",
+                "description": "Get in touch to request samples, pricing, or a bulk order quote.",
+                "url": "https://safasapparel.com/contact.html"
+            }
+            ]
+        }
+    ]
     </script>
 </body>
 
